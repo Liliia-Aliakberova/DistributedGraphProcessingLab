@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5184c093-5c92-478e-9377-f7e783c49ea1" name="Default Changelist" comment="" />
+    <list default="true" id="5f926620-2fd6-4f38-885d-f6d99fed4543" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1Z2Q0YGmKlRjfe7QMpouj1GZ8Jc" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z4V1xb25NSLYX5TKdzKRf3Qr71" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,32 +38,70 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/lauis/Downloads/Maestria/SDM/SparkGraphXassignment/SparkGraphXassignment",
-    "settings.editor.selected.configurable": "configurable.group.build.android"
+    "last_opened_file_path": "C:/Users/lauis/Downloads/Maestria/SDM/SparkGraphXassignment/SparkGraphXassignment/SparkGraphXassignment"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Work\Teaching\SDM-OD\SDM-svn\FitxesLaboratoriIAutoEstudi\Labs\2020\Distributed Graphs\SparkGraphXassignment" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Work\Teaching\SDM-OD\SDM-svn\FitxesLaboratoriIAutoEstudi\Labs\2020\Distributed Graphs\SparkGraphXassignment\src\main\resources\bin" />
-    </key>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.exercise4">
+    <configuration name="exercise1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="spark_graphs_II" />
+      <option name="PROGRAM_PARAMETERS" value="exercise1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="spark_graphs_II" />
+      <option name="PROGRAM_PARAMETERS" value="exercise2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="spark_graphs_II" />
+      <option name="PROGRAM_PARAMETERS" value="exercise3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="spark_graphs_II" />
+      <option name="PROGRAM_PARAMETERS" value="exercise4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise4_warmup" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="spark_graphs_II" />
+      <option name="PROGRAM_PARAMETERS" value="exercise4_warmup" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="SparkGraphXassignment" />
+      <module name="spark_graphs_II" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SparkGraphXassignment" />
+      <module name="spark_graphs_II" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.exercise1" />
+      <item itemvalue="Application.exercise2" />
+      <item itemvalue="Application.exercise3" />
+      <item itemvalue="Application.exercise4" />
+      <item itemvalue="Application.exercise4_warmup" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -57,11 +109,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5184c093-5c92-478e-9377-f7e783c49ea1" name="Default Changelist" comment="" />
-      <created>1584034487520</created>
+      <changelist id="5f926620-2fd6-4f38-885d-f6d99fed4543" name="Default Changelist" comment="" />
+      <created>1584098141782</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584034487520</updated>
+      <updated>1584098141782</updated>
     </task>
     <servers />
   </component>
