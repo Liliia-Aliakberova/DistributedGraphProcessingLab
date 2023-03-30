@@ -34,13 +34,13 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/lauis/Downloads/Maestria/SDM/SparkGraphXassignment/SparkGraphXassignment/SparkGraphXassignment"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lauis/Downloads/Maestria/SDM/SparkGraphXassignment/SparkGraphXassignment/SparkGraphXassignment&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.exercise4">
     <configuration name="exercise1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -78,19 +78,6 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="spark_graphs_II" />
       <option name="PROGRAM_PARAMETERS" value="exercise4_warmup" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="spark_graphs_II" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="spark_graphs_II" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

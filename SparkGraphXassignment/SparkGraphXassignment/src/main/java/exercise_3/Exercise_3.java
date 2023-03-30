@@ -37,13 +37,10 @@ public class Exercise_3 {
     private static class VProg extends AbstractFunction3<Long,Node,Node,Node> implements Serializable {
         @Override
         public Node apply(Long nodeID, Node nodeValue, Node message) {
-            System.out.println("[ VProg ] nodeID: '" +  nodeID +  "' nodeValue: '" +  nodeValue + "' message: '" + message + "'" );
 
             if (message._1.equals(MVALUE)) {
-                System.out.println("[ VProg ] State 0 -> nodeID: '" +  nodeID +  "'");
                 return nodeValue;
             } else {
-                System.out.println("[ VProg ] nodeID: '" +  nodeID +  "' '" + Math.min(nodeValue._1, message._1) + "' value");
                 if(nodeValue._1<=message._1){
                     return nodeValue;
                 }
@@ -63,7 +60,6 @@ public class Exercise_3 {
             Node destinationNode = triplet.dstAttr();
 
             if ( sourceNode._1.equals(MVALUE) ) {
-                System.out.println("[ sendMsg ] srcId: '" +  srcId +  " [" + sourceNode + "]'  to dstId: '" + dstId + " [" + destinationNode + "]'");
                 return JavaConverters.asScalaIteratorConverter(new ArrayList<Tuple2<Object,Node>>().iterator()).asScala();
             } else {
                 Integer minpath = sourceNode._1+weight;
@@ -71,7 +67,6 @@ public class Exercise_3 {
                 path.add(labels.get(srcId));
                 Node nodemessage= new Node( minpath,path);
 
-                System.out.println("[ sendMsg ] srcId: '" +  srcId +  " [" + sourceNode + "]' send '" + minpath + "' to dstId: '" + dstId + " [" + destinationNode + "]'");
                 return JavaConverters.asScalaIteratorConverter(Arrays.asList(new Tuple2<Object,Node>(triplet.dstId(), nodemessage)).iterator()).asScala();
             }
         }

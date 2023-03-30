@@ -64,19 +64,23 @@ public class Exercise_4 {
 		gf.edges().show();
 		gf.vertices().show();
 
-		List<Integer> range_dampling = IntStream.rangeClosed(1, 2).boxed().collect(Collectors.toList());
-		List<Integer> range_iterations = IntStream.rangeClosed(1, 2).boxed().collect(Collectors.toList());
+		List<Integer> range_dampling = IntStream.rangeClosed(1, 20).boxed().collect(Collectors.toList());
+		List<Integer> range_iterations = IntStream.rangeClosed(1, 10).boxed().collect(Collectors.toList());
 
 		range_iterations.forEach(
 				iterations -> {
 					range_dampling.forEach(
 							 dint->{
+								 final long startTime = System.currentTimeMillis();
+
 								 Double d = ((double) dint*0.05);
 								 Double prob = (double) (1-d);
-								 System.out.println("PARAMS Damping factor: "+ d+" N.Iterations "+ iterations);
 
 								 GraphFrame gf_rank = gf.pageRank().resetProbability(prob).maxIter(iterations).run();
 								 Dataset<Row> topVertices = gf_rank.vertices().sort(org.apache.spark.sql.functions.desc("pagerank"));
+								 final long endTime = System.currentTimeMillis();
+
+								 System.out.println("PARAMS Damping factor: "+ d+" N.Iterations "+ iterations+" . Total execution time: " + (endTime - startTime));
 								 topVertices.show(10);
 
 
